@@ -1,0 +1,88 @@
+:root {
+    --blue: #ba0cc5;
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background: url(./assets/bg.png);
+    height: 100vh;
+}
+
+.navbar {
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding:10px 60px;
+}
+
+.navbar img {
+    height: 40px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.list li {
+    margin: 0 30px;
+    font-size: 19px;
+}
+
+.line {
+    height: 60px;
+    width: 2px;
+    background: #fff;
+    margin-left: 50px;
+}
+
+.grow-list + div {
+    margin-left: auto;
+}
+
+.button-small {
+    padding: 10px 25px;
+    background: var(--blue);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.hero-heading {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.hero-description {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero {
+    width: 800px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-large {
+    padding: 10px 25px;
+    background: var(--blue);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 40px;
+}
